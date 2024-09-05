@@ -1,9 +1,9 @@
-//主网
+//mainnet
 export const RPC_URL = 'https://rpc.nal.network'
 export const TX_SERVICE_URL = 'https://safe.nal.network/txs/api'
 export const CHAINID = 328527n
 
-//测试网
+//testnet
 // export const RPC_URL = 'https://testnet-rpc.nal.network'
 // export const TX_SERVICE_URL = 'https://testnet-safe.nal.network/txs/api'
 // export const CHAINID = 328527624n
