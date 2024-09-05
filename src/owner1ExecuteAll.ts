@@ -3,7 +3,7 @@ import  Safe from '@safe-global/protocol-kit'
 import SafeApiKit from '@safe-global/api-kit'
 import { ContractTransactionReceipt, TransactionResponse } from 'ethers'
 
-import {RPC_URL,TX_SERVICE_URL,CHAINID,SAFE_ADDRESS,OWNER_1_PRIVATE_KEY,SAFE_TX_HASH} from './config'
+import {RPC_URL,TX_SERVICE_URL,BROWSER,CHAINID,SAFE_ADDRESS,OWNER_1_PRIVATE_KEY,SAFE_TX_HASH} from './config'
 
 
 
@@ -39,7 +39,7 @@ async function execute(){
     
         if(receipt){
             console.log('Transaction executed for safe-tx-hash:',safe_tx_hash)
-            console.log(`https://testnet-scan.nal.network/tx/${receipt.hash}`)
+            console.log(`${BROWSER}/tx/${receipt.hash}`)
         }else{
             console.log('Receipt is null or undefined')
         }

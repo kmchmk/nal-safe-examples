@@ -1,11 +1,13 @@
 //mainnet
 export const RPC_URL = 'https://rpc.nal.network'
 export const TX_SERVICE_URL = 'https://safe.nal.network/txs/api'
+export const BROWSER = 'https://scan.nal.network'
 export const CHAINID = 328527n
 
 //testnet
 // export const RPC_URL = 'https://testnet-rpc.nal.network'
 // export const TX_SERVICE_URL = 'https://testnet-safe.nal.network/txs/api'
+// export const BROWSER = 'https://testnet-scan.nal.network'
 // export const CHAINID = 328527624n
 
 export const SAFE_ADDRESS: string = ''

@@ -13,7 +13,7 @@ const apiKit = new SafeApiKit({
 const ProxyAdmin = '0x4200000000000000000000000000000000000018'
 const L2ERC721BridgeProxy = '0x4200000000000000000000000000000000000014'
 const L2ERC721BridgeImplOld = '0xC0D3c0d3c0d3c0d3c0D3C0d3C0D3C0D3c0d30014'
-const L2ERC721BridgeImplNew = ''
+const L2ERC721BridgeImplNew = '0x0000000000000000000000000000000000000000'
 
 function getUpgradeCalldata(){
     const contractABI = [
